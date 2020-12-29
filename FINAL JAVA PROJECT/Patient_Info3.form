@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Patient_Info3">
+  <grid id="27dc6" binding="mainpanel" layout-manager="GridLayoutManager" row-count="13" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="727" height="546"/>
+    </constraints>
+    <properties>
+      <background color="-4985601"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="89956" class="javax.swing.JLabel" binding="Page_Title">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="20" style="3"/>
+          <text value="PATIENT INFORMATION "/>
+        </properties>
+      </component>
+      <component id="c217e" class="javax.swing.JLabel" binding="ID_Label">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="18" style="1"/>
+          <foreground color="-12233285"/>
+          <text value="ID : "/>
+        </properties>
+      </component>
+      <component id="643b6" class="javax.swing.JLabel" binding="Name_Label">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="18" style="1"/>
+          <foreground color="-12233285"/>
+          <text value="Name : "/>
+        </properties>
+      </component>
+      <component id="4d196" class="javax.swing.JLabel" binding="Age_Label">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="18" style="1"/>
+          <foreground color="-12233285"/>
+          <text value="Age :"/>
+        </properties>
+      </component>
+      <component id="5ca89" class="javax.swing.JLabel" binding="Gender_Label">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="18" style="1"/>
+          <foreground color="-12233285"/>
+          <text value="Gender :"/>
+        </properties>
+      </component>
+      <component id="4d534" class="javax.swing.JLabel" binding="BG_Label">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="18" style="1"/>
+          <foreground color="-12233285"/>
+          <text value="Blood Group :"/>
+        </properties>
+      </component>
+      <component id="4170b" class="javax.swing.JLabel" binding="Address_Label">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="18" style="1"/>
+          <foreground color="-12233285"/>
+          <text value="Address :"/>
+        </properties>
+      </component>
+      <component id="4831d" class="javax.swing.JLabel" binding="phn_no_label">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="18" style="1"/>
+          <foreground color="-12233285"/>
+          <text value="Phone No. :"/>
+        </properties>
+      </component>
+      <component id="fef18" class="javax.swing.JLabel" binding="marital_status_label">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="18" style="1"/>
+          <foreground color="-12233285"/>
+          <text value="Marital Status :"/>
+        </properties>
+      </component>
+      <component id="576b8" class="javax.swing.JLabel" binding="total_admits_label">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="18" style="1"/>
+          <foreground color="-12233285"/>
+          <text value="Total Admissions :"/>
+        </properties>
+      </component>
+      <component id="3bc2e" class="javax.swing.JLabel" binding="cases_label">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="18" style="1"/>
+          <foreground color="-12233285"/>
+          <text value="Cases :"/>
+        </properties>
+      </component>
+      <component id="6a541" class="javax.swing.JComboBox" binding="case_list">
+        <constraints>
+          <grid row="10" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12403457"/>
+        </properties>
+      </component>
+      <component id="d2912" class="javax.swing.JButton" binding="OKButton">
+        <constraints>
+          <grid row="11" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12403457"/>
+          <text value="Done"/>
+        </properties>
+      </component>
+      <component id="79d6d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="images/patient.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="bfc12" class="javax.swing.JToolBar$Separator">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="e0e72" class="javax.swing.JToolBar$Separator">
+        <constraints>
+          <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="3f912" class="javax.swing.JToolBar$Separator">
+        <constraints>
+          <grid row="12" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="ce168" class="javax.swing.JTextField" binding="idtextField1">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="53568" class="javax.swing.JTextField" binding="nametextField2">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="4dd1d" class="javax.swing.JTextField" binding="agetextField3">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="94a26" class="javax.swing.JTextField" binding="gendertextField4">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="9c5ca" class="javax.swing.JTextField" binding="bloodtextField5">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="42a37" class="javax.swing.JTextField" binding="addresstextField6">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="1df54" class="javax.swing.JTextField" binding="phonetextField7">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="95a84" class="javax.swing.JTextField" binding="maritaltextField8">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="d1906" class="javax.swing.JTextField" binding="totaladmissiontextField9">
+        <constraints>
+          <grid row="9" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
