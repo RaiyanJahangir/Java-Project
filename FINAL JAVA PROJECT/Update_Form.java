@@ -46,7 +46,6 @@ public class Update_Form implements ActionListener{
         BG_Label.setText("Blood Group :"+patient_list.get(i).BG);
         marital_status_label.setText("Marital Status :"+patient_list.get(i).marital_status);
         total_admits_label.setText("Total Admissions :"+patient_list.get(i).total_admits);
-        //Hello
         for (String element : doctor_list) {
             DoctorComboBox.addItem(element);
         }
